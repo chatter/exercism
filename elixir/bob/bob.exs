@@ -10,7 +10,6 @@ defmodule Bob do
 
   defp silent?(input), do: String.match?(input, ~r/^\p{Z}*$/)
   defp yelling?(input), do: String.match?(input, ~r/^(?=.*\p{Lu})[\P{Ll}]+!?[^?]$/)
-  defp whatever?(input), do: String.last(input) == "!" 
-  defp sure?(input), do: String.last(input) == "?"
+  defp sure?(input), do: String.ends_with? input, "?"
 end
 
