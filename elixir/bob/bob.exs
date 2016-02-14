@@ -1,7 +1,8 @@
 defmodule Bob do
   def hey(input) do
     cond do
-      String.last(input) == "!" -> "Whoa, chill out!"
+      String.match?(input, ~r/^[A-Z ]+!/) -> "Whoa, chill out!"
+      String.last(input) == "!" -> "Whatever."
       String.last(input) == "?" -> "Sure."
       true -> "Whatever."
 
