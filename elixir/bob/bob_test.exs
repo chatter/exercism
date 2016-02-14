@@ -44,7 +44,7 @@ defmodule BobTest do
     assert Bob.hey("ZOMG THE %^*@#$(*^ ZOMBIES ARE COMING!!11!!1!") == "Whoa, chill out!"
   end
 
-  @tag :pending
+  #  @tag :pending
   test "shouting with no exclamation mark" do
     assert Bob.hey("I HATE YOU") == "Whoa, chill out!"
   end
