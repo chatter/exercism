@@ -1,6 +1,14 @@
+# General
+*.swp
+.DS_store
+
+# Elixir
 /_build
 /cover
 /deps
 erl_crash.dump
 *.ez
-*.swp
+
+# Xcode
+xcuserdata/
+
