@@ -2,10 +2,9 @@ struct Hamming {
     static func compute(origin: String, against: String) -> Int? {
         // return quick if strings aren't the same size
         if origin.characters.count != against.characters.count { return nil }
-        
-        let againstArray = Array(against.characters)
-        return origin.characters.enumerate().reduce(0) { (acc: Int, tuple: (index: Int, value: Character)) in
-            return acc + (againstArray[tuple.index] == tuple.value ? 0 : 1);
+
+        return zip(origin.characters, against.characters).reduce(0) { (acc: Int, tuple: (a: Character, b: Character)) in
+            return acc + (tuple.a == tuple.b ? 0 : 1)
         }
     }
 }
