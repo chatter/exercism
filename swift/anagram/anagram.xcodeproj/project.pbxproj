@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168ACF2B1C77D7420089DAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF2A1C77D7420089DAAB /* AppDelegate.swift */; };
+		168ACF2D1C77D7420089DAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF2C1C77D7420089DAAB /* ViewController.swift */; };
+		168ACF301C77D7420089DAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168ACF2E1C77D7420089DAAB /* Main.storyboard */; };
+		168ACF321C77D7420089DAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168ACF311C77D7420089DAAB /* Assets.xcassets */; };
+		168ACF351C77D7420089DAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168ACF331C77D7420089DAAB /* LaunchScreen.storyboard */; };
+		168ACF401C77D7420089DAAB /* anagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF3F1C77D7420089DAAB /* anagramTests.swift */; };
+		168ACF4B1C77D7420089DAAB /* anagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF4A1C77D7420089DAAB /* anagramUITests.swift */; };
+		168ACF591C77D7640089DAAB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF581C77D7640089DAAB /* README.md */; };
+		168ACF5B1C77D78D0089DAAB /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF5A1C77D78D0089DAAB /* Anagram.swift */; };
+		168ACF5C1C77D78D0089DAAB /* Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF5A1C77D78D0089DAAB /* Anagram.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		168ACF3C1C77D7420089DAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168ACF1F1C77D7420089DAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168ACF261C77D7420089DAAB;
+			remoteInfo = anagram;
+		};
+		168ACF471C77D7420089DAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168ACF1F1C77D7420089DAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168ACF261C77D7420089DAAB;
+			remoteInfo = anagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		168ACF271C77D7420089DAAB /* anagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		168ACF2A1C77D7420089DAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		168ACF2C1C77D7420089DAAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		168ACF2F1C77D7420089DAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		168ACF311C77D7420089DAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		168ACF341C77D7420089DAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		168ACF361C77D7420089DAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168ACF3B1C77D7420089DAAB /* anagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168ACF3F1C77D7420089DAAB /* anagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anagramTests.swift; sourceTree = "<group>"; };
+		168ACF411C77D7420089DAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168ACF461C77D7420089DAAB /* anagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168ACF4A1C77D7420089DAAB /* anagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anagramUITests.swift; sourceTree = "<group>"; };
+		168ACF4C1C77D7420089DAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168ACF581C77D7640089DAAB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		168ACF5A1C77D78D0089DAAB /* Anagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anagram.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168ACF241C77D7420089DAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ACF381C77D7420089DAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ACF431C77D7420089DAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168ACF1E1C77D7420089DAAB = {
+			isa = PBXGroup;
+			children = (
+				168ACF291C77D7420089DAAB /* anagram */,
+				168ACF3E1C77D7420089DAAB /* anagramTests */,
+				168ACF491C77D7420089DAAB /* anagramUITests */,
+				168ACF281C77D7420089DAAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		168ACF281C77D7420089DAAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168ACF271C77D7420089DAAB /* anagram.app */,
+				168ACF3B1C77D7420089DAAB /* anagramTests.xctest */,
+				168ACF461C77D7420089DAAB /* anagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		168ACF291C77D7420089DAAB /* anagram */ = {
+			isa = PBXGroup;
+			children = (
+				168ACF2A1C77D7420089DAAB /* AppDelegate.swift */,
+				168ACF2C1C77D7420089DAAB /* ViewController.swift */,
+				168ACF2E1C77D7420089DAAB /* Main.storyboard */,
+				168ACF311C77D7420089DAAB /* Assets.xcassets */,
+				168ACF331C77D7420089DAAB /* LaunchScreen.storyboard */,
+				168ACF361C77D7420089DAAB /* Info.plist */,
+				168ACF581C77D7640089DAAB /* README.md */,
+				168ACF5A1C77D78D0089DAAB /* Anagram.swift */,
+			);
+			path = anagram;
+			sourceTree = "<group>";
+		};
+		168ACF3E1C77D7420089DAAB /* anagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				168ACF3F1C77D7420089DAAB /* anagramTests.swift */,
+				168ACF411C77D7420089DAAB /* Info.plist */,
+			);
+			path = anagramTests;
+			sourceTree = "<group>";
+		};
+		168ACF491C77D7420089DAAB /* anagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				168ACF4A1C77D7420089DAAB /* anagramUITests.swift */,
+				168ACF4C1C77D7420089DAAB /* Info.plist */,
+			);
+			path = anagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168ACF261C77D7420089DAAB /* anagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168ACF4F1C77D7420089DAAB /* Build configuration list for PBXNativeTarget "anagram" */;
+			buildPhases = (
+				168ACF231C77D7420089DAAB /* Sources */,
+				168ACF241C77D7420089DAAB /* Frameworks */,
+				168ACF251C77D7420089DAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = anagram;
+			productName = anagram;
+			productReference = 168ACF271C77D7420089DAAB /* anagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		168ACF3A1C77D7420089DAAB /* anagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168ACF521C77D7420089DAAB /* Build configuration list for PBXNativeTarget "anagramTests" */;
+			buildPhases = (
+				168ACF371C77D7420089DAAB /* Sources */,
+				168ACF381C77D7420089DAAB /* Frameworks */,
+				168ACF391C77D7420089DAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168ACF3D1C77D7420089DAAB /* PBXTargetDependency */,
+			);
+			name = anagramTests;
+			productName = anagramTests;
+			productReference = 168ACF3B1C77D7420089DAAB /* anagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		168ACF451C77D7420089DAAB /* anagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168ACF551C77D7420089DAAB /* Build configuration list for PBXNativeTarget "anagramUITests" */;
+			buildPhases = (
+				168ACF421C77D7420089DAAB /* Sources */,
+				168ACF431C77D7420089DAAB /* Frameworks */,
+				168ACF441C77D7420089DAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168ACF481C77D7420089DAAB /* PBXTargetDependency */,
+			);
+			name = anagramUITests;
+			productName = anagramUITests;
+			productReference = 168ACF461C77D7420089DAAB /* anagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		168ACF1F1C77D7420089DAAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mitchell Hatter";
+				TargetAttributes = {
+					168ACF261C77D7420089DAAB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					168ACF3A1C77D7420089DAAB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 168ACF261C77D7420089DAAB;
+					};
+					168ACF451C77D7420089DAAB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 168ACF261C77D7420089DAAB;
+					};
+				};
+			};
+			buildConfigurationList = 168ACF221C77D7420089DAAB /* Build configuration list for PBXProject "anagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 168ACF1E1C77D7420089DAAB;
+			productRefGroup = 168ACF281C77D7420089DAAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168ACF261C77D7420089DAAB /* anagram */,
+				168ACF3A1C77D7420089DAAB /* anagramTests */,
+				168ACF451C77D7420089DAAB /* anagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		168ACF251C77D7420089DAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168ACF351C77D7420089DAAB /* LaunchScreen.storyboard in Resources */,
+				168ACF321C77D7420089DAAB /* Assets.xcassets in Resources */,
+				168ACF301C77D7420089DAAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ACF391C77D7420089DAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ACF441C77D7420089DAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168ACF231C77D7420089DAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168ACF591C77D7640089DAAB /* README.md in Sources */,
+				168ACF2D1C77D7420089DAAB /* ViewController.swift in Sources */,
+				168ACF2B1C77D7420089DAAB /* AppDelegate.swift in Sources */,
+				168ACF5B1C77D78D0089DAAB /* Anagram.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ACF371C77D7420089DAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168ACF401C77D7420089DAAB /* anagramTests.swift in Sources */,
+				168ACF5C1C77D78D0089DAAB /* Anagram.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ACF421C77D7420089DAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168ACF4B1C77D7420089DAAB /* anagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		168ACF3D1C77D7420089DAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168ACF261C77D7420089DAAB /* anagram */;
+			targetProxy = 168ACF3C1C77D7420089DAAB /* PBXContainerItemProxy */;
+		};
+		168ACF481C77D7420089DAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168ACF261C77D7420089DAAB /* anagram */;
+			targetProxy = 168ACF471C77D7420089DAAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		168ACF2E1C77D7420089DAAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168ACF2F1C77D7420089DAAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		168ACF331C77D7420089DAAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168ACF341C77D7420089DAAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		168ACF4D1C77D7420089DAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		168ACF4E1C77D7420089DAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		168ACF501C77D7420089DAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = anagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.hatter.curtis.anagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		168ACF511C77D7420089DAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = anagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.hatter.curtis.anagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		168ACF531C77D7420089DAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = anagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.hatter.curtis.anagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anagram.app/anagram";
+			};
+			name = Debug;
+		};
+		168ACF541C77D7420089DAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = anagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.hatter.curtis.anagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anagram.app/anagram";
+			};
+			name = Release;
+		};
+		168ACF561C77D7420089DAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = anagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.hatter.curtis.anagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = anagram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		168ACF571C77D7420089DAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = anagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.hatter.curtis.anagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = anagram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168ACF221C77D7420089DAAB /* Build configuration list for PBXProject "anagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168ACF4D1C77D7420089DAAB /* Debug */,
+				168ACF4E1C77D7420089DAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168ACF4F1C77D7420089DAAB /* Build configuration list for PBXNativeTarget "anagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168ACF501C77D7420089DAAB /* Debug */,
+				168ACF511C77D7420089DAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		168ACF521C77D7420089DAAB /* Build configuration list for PBXNativeTarget "anagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168ACF531C77D7420089DAAB /* Debug */,
+				168ACF541C77D7420089DAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		168ACF551C77D7420089DAAB /* Build configuration list for PBXNativeTarget "anagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168ACF561C77D7420089DAAB /* Debug */,
+				168ACF571C77D7420089DAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 168ACF1F1C77D7420089DAAB /* Project object */;
+}
