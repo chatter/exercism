@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168ACF6A1C77EC2B0089DAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF691C77EC2B0089DAAB /* AppDelegate.swift */; };
+		168ACF6C1C77EC2B0089DAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF6B1C77EC2B0089DAAB /* ViewController.swift */; };
+		168ACF6F1C77EC2B0089DAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168ACF6D1C77EC2B0089DAAB /* Main.storyboard */; };
+		168ACF711C77EC2B0089DAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168ACF701C77EC2B0089DAAB /* Assets.xcassets */; };
+		168ACF741C77EC2B0089DAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168ACF721C77EC2B0089DAAB /* LaunchScreen.storyboard */; };
+		168ACF7F1C77EC2B0089DAAB /* nucleotide_countTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF7E1C77EC2B0089DAAB /* nucleotide_countTests.swift */; };
+		168ACF8A1C77EC2B0089DAAB /* nucleotide_countUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF891C77EC2B0089DAAB /* nucleotide_countUITests.swift */; };
+		168ACF981C77EC3C0089DAAB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF971C77EC3C0089DAAB /* README.md */; };
+		168ACF9A1C77ECD20089DAAB /* DNA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF991C77ECD20089DAAB /* DNA.swift */; };
+		168ACF9B1C77ECD20089DAAB /* DNA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168ACF991C77ECD20089DAAB /* DNA.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		168ACF7B1C77EC2B0089DAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168ACF5E1C77EC2B0089DAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168ACF651C77EC2B0089DAAB;
+			remoteInfo = "nucleotide-count";
+		};
+		168ACF861C77EC2B0089DAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168ACF5E1C77EC2B0089DAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168ACF651C77EC2B0089DAAB;
+			remoteInfo = "nucleotide-count";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		168ACF661C77EC2B0089DAAB /* nucleotide-count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nucleotide-count.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		168ACF691C77EC2B0089DAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		168ACF6B1C77EC2B0089DAAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		168ACF6E1C77EC2B0089DAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		168ACF701C77EC2B0089DAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		168ACF731C77EC2B0089DAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		168ACF751C77EC2B0089DAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168ACF7A1C77EC2B0089DAAB /* nucleotide-countTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nucleotide-countTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		168ACF7E1C77EC2B0089DAAB /* nucleotide_countTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nucleotide_countTests.swift; sourceTree = "<group>"; };
+		168ACF801C77EC2B0089DAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168ACF851C77EC2B0089DAAB /* nucleotide-countUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nucleotide-countUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		168ACF891C77EC2B0089DAAB /* nucleotide_countUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nucleotide_countUITests.swift; sourceTree = "<group>"; };
+		168ACF8B1C77EC2B0089DAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168ACF971C77EC3C0089DAAB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		168ACF991C77ECD20089DAAB /* DNA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNA.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168ACF631C77EC2B0089DAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ACF771C77EC2B0089DAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ACF821C77EC2B0089DAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168ACF5D1C77EC2B0089DAAB = {
+			isa = PBXGroup;
+			children = (
+				168ACF971C77EC3C0089DAAB /* README.md */,
+				168ACF681C77EC2B0089DAAB /* nucleotide-count */,
+				168ACF7D1C77EC2B0089DAAB /* nucleotide-countTests */,
+				168ACF881C77EC2B0089DAAB /* nucleotide-countUITests */,
+				168ACF671C77EC2B0089DAAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		168ACF671C77EC2B0089DAAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168ACF661C77EC2B0089DAAB /* nucleotide-count.app */,
+				168ACF7A1C77EC2B0089DAAB /* nucleotide-countTests.xctest */,
+				168ACF851C77EC2B0089DAAB /* nucleotide-countUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		168ACF681C77EC2B0089DAAB /* nucleotide-count */ = {
+			isa = PBXGroup;
+			children = (
+				168ACF691C77EC2B0089DAAB /* AppDelegate.swift */,
+				168ACF6B1C77EC2B0089DAAB /* ViewController.swift */,
+				168ACF6D1C77EC2B0089DAAB /* Main.storyboard */,
+				168ACF701C77EC2B0089DAAB /* Assets.xcassets */,
+				168ACF721C77EC2B0089DAAB /* LaunchScreen.storyboard */,
+				168ACF751C77EC2B0089DAAB /* Info.plist */,
+				168ACF991C77ECD20089DAAB /* DNA.swift */,
+			);
+			path = "nucleotide-count";
+			sourceTree = "<group>";
+		};
+		168ACF7D1C77EC2B0089DAAB /* nucleotide-countTests */ = {
+			isa = PBXGroup;
+			children = (
+				168ACF7E1C77EC2B0089DAAB /* nucleotide_countTests.swift */,
+				168ACF801C77EC2B0089DAAB /* Info.plist */,
+			);
+			path = "nucleotide-countTests";
+			sourceTree = "<group>";
+		};
+		168ACF881C77EC2B0089DAAB /* nucleotide-countUITests */ = {
+			isa = PBXGroup;
+			children = (
+				168ACF891C77EC2B0089DAAB /* nucleotide_countUITests.swift */,
+				168ACF8B1C77EC2B0089DAAB /* Info.plist */,
+			);
+			path = "nucleotide-countUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168ACF651C77EC2B0089DAAB /* nucleotide-count */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168ACF8E1C77EC2B0089DAAB /* Build configuration list for PBXNativeTarget "nucleotide-count" */;
+			buildPhases = (
+				168ACF621C77EC2B0089DAAB /* Sources */,
+				168ACF631C77EC2B0089DAAB /* Frameworks */,
+				168ACF641C77EC2B0089DAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nucleotide-count";
+			productName = "nucleotide-count";
+			productReference = 168ACF661C77EC2B0089DAAB /* nucleotide-count.app */;
+			productType = "com.apple.product-type.application";
+		};
+		168ACF791C77EC2B0089DAAB /* nucleotide-countTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168ACF911C77EC2B0089DAAB /* Build configuration list for PBXNativeTarget "nucleotide-countTests" */;
+			buildPhases = (
+				168ACF761C77EC2B0089DAAB /* Sources */,
+				168ACF771C77EC2B0089DAAB /* Frameworks */,
+				168ACF781C77EC2B0089DAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168ACF7C1C77EC2B0089DAAB /* PBXTargetDependency */,
+			);
+			name = "nucleotide-countTests";
+			productName = "nucleotide-countTests";
+			productReference = 168ACF7A1C77EC2B0089DAAB /* nucleotide-countTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		168ACF841C77EC2B0089DAAB /* nucleotide-countUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168ACF941C77EC2B0089DAAB /* Build configuration list for PBXNativeTarget "nucleotide-countUITests" */;
+			buildPhases = (
+				168ACF811C77EC2B0089DAAB /* Sources */,
+				168ACF821C77EC2B0089DAAB /* Frameworks */,
+				168ACF831C77EC2B0089DAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168ACF871C77EC2B0089DAAB /* PBXTargetDependency */,
+			);
+			name = "nucleotide-countUITests";
+			productName = "nucleotide-countUITests";
+			productReference = 168ACF851C77EC2B0089DAAB /* nucleotide-countUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		168ACF5E1C77EC2B0089DAAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mitchell Hatter";
+				TargetAttributes = {
+					168ACF651C77EC2B0089DAAB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					168ACF791C77EC2B0089DAAB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 168ACF651C77EC2B0089DAAB;
+					};
+					168ACF841C77EC2B0089DAAB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 168ACF651C77EC2B0089DAAB;
+					};
+				};
+			};
+			buildConfigurationList = 168ACF611C77EC2B0089DAAB /* Build configuration list for PBXProject "nucleotide-count" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 168ACF5D1C77EC2B0089DAAB;
+			productRefGroup = 168ACF671C77EC2B0089DAAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168ACF651C77EC2B0089DAAB /* nucleotide-count */,
+				168ACF791C77EC2B0089DAAB /* nucleotide-countTests */,
+				168ACF841C77EC2B0089DAAB /* nucleotide-countUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		168ACF641C77EC2B0089DAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168ACF741C77EC2B0089DAAB /* LaunchScreen.storyboard in Resources */,
+				168ACF711C77EC2B0089DAAB /* Assets.xcassets in Resources */,
+				168ACF6F1C77EC2B0089DAAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ACF781C77EC2B0089DAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ACF831C77EC2B0089DAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168ACF621C77EC2B0089DAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168ACF981C77EC3C0089DAAB /* README.md in Sources */,
+				168ACF9A1C77ECD20089DAAB /* DNA.swift in Sources */,
+				168ACF6C1C77EC2B0089DAAB /* ViewController.swift in Sources */,
+				168ACF6A1C77EC2B0089DAAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ACF761C77EC2B0089DAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168ACF7F1C77EC2B0089DAAB /* nucleotide_countTests.swift in Sources */,
+				168ACF9B1C77ECD20089DAAB /* DNA.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168ACF811C77EC2B0089DAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168ACF8A1C77EC2B0089DAAB /* nucleotide_countUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		168ACF7C1C77EC2B0089DAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168ACF651C77EC2B0089DAAB /* nucleotide-count */;
+			targetProxy = 168ACF7B1C77EC2B0089DAAB /* PBXContainerItemProxy */;
+		};
+		168ACF871C77EC2B0089DAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168ACF651C77EC2B0089DAAB /* nucleotide-count */;
+			targetProxy = 168ACF861C77EC2B0089DAAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		168ACF6D1C77EC2B0089DAAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168ACF6E1C77EC2B0089DAAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		168ACF721C77EC2B0089DAAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168ACF731C77EC2B0089DAAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		168ACF8C1C77EC2B0089DAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		168ACF8D1C77EC2B0089DAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		168ACF8F1C77EC2B0089DAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "nucleotide-count/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.hatter.curtis.nucleotide-count";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		168ACF901C77EC2B0089DAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "nucleotide-count/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.hatter.curtis.nucleotide-count";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		168ACF921C77EC2B0089DAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "nucleotide-countTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.hatter.curtis.nucleotide-countTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nucleotide-count.app/nucleotide-count";
+			};
+			name = Debug;
+		};
+		168ACF931C77EC2B0089DAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "nucleotide-countTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.hatter.curtis.nucleotide-countTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nucleotide-count.app/nucleotide-count";
+			};
+			name = Release;
+		};
+		168ACF951C77EC2B0089DAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "nucleotide-countUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.hatter.curtis.nucleotide-countUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "nucleotide-count";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		168ACF961C77EC2B0089DAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "nucleotide-countUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.hatter.curtis.nucleotide-countUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "nucleotide-count";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168ACF611C77EC2B0089DAAB /* Build configuration list for PBXProject "nucleotide-count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168ACF8C1C77EC2B0089DAAB /* Debug */,
+				168ACF8D1C77EC2B0089DAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168ACF8E1C77EC2B0089DAAB /* Build configuration list for PBXNativeTarget "nucleotide-count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168ACF8F1C77EC2B0089DAAB /* Debug */,
+				168ACF901C77EC2B0089DAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168ACF911C77EC2B0089DAAB /* Build configuration list for PBXNativeTarget "nucleotide-countTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168ACF921C77EC2B0089DAAB /* Debug */,
+				168ACF931C77EC2B0089DAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168ACF941C77EC2B0089DAAB /* Build configuration list for PBXNativeTarget "nucleotide-countUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168ACF951C77EC2B0089DAAB /* Debug */,
+				168ACF961C77EC2B0089DAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 168ACF5E1C77EC2B0089DAAB /* Project object */;
+}
