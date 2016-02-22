@@ -15,7 +15,7 @@ struct PhoneNumber : CustomStringConvertible {
 
   var description: String {
     let co = self.number[number.startIndex.advancedBy(3)...number.startIndex.advancedBy(5)]
-    let te = self.number[number.startIndex.advancedBy(6)...number.startIndex.advancedBy(9)]
+    let te = self.number[number.startIndex.advancedBy(6)..<number.endIndex]
 
     return "(\(self.areaCode)) \(co)-\(te)"
   }
