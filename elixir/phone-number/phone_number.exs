@@ -17,8 +17,16 @@ defmodule Phone do
   "0000000000"
   """
   @spec number(String.t) :: String.t
-  def number(raw) do
+  def number(raw), do: raw |> do_number |> to_string
 
+  defp do_number(raw) do
+    digits = Regex.replace(~r/[()-.\s]/, raw, "") |> String.to_char_list
+
+    cond do
+      length(digits) == 10 -> digits
+      length(digits) == 11 && hd(digits) == ?1 -> tl(digits)
+      true -> '0000000000'
+    end
   end
 
   @doc """
@@ -39,9 +47,7 @@ defmodule Phone do
   "000"
   """
   @spec area_code(String.t) :: String.t
-  def area_code(raw) do
-  
-  end
+  def area_code(raw), do: raw |> do_number |> Enum.slice(0..2) |> to_string
 
   @doc """
   Pretty print a phone number
@@ -61,7 +67,9 @@ defmodule Phone do
   "(000) 000-0000"
   """
   @spec pretty(String.t) :: String.t
-  def pretty(raw) do
-  
+  def pretty(raw), do: raw |> do_number |> _format
+
+  defp _format(number) do
+    "(#{Enum.slice(number, 0..2)}) #{Enum.slice(number, 3..5)}-#{Enum.slice(number, 6..9)}"
   end
 end
